@@ -1,0 +1,10 @@
+# should show four cards for four types of IPhone
+# Each card should show image, name, a dropdown select contains all models, a quantity controller, total price of this phone and an "add to cart" button;
+# The total price of card should show the quantity * price of the model.
+# Clicking "Add to cart" should reset the card quantity to 1 and add the quantity & model to the cart.
+# If the phone and model has already been added to the card, it should only update the quantity for the same model in the card.
+# Each added item in the card should show name, model and the quantity for this model, the total price and a remove button.
+# Clicking remove button would remove the item from the cart.
+# Same phone but different model should be listed separately.
+# There should be Total section at the bottom showing the total price of all phones and models
+# There should be a "checkout" button. Clicking it would clear all items in the cart.

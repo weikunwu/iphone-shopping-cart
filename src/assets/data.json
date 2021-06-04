@@ -1,0 +1,81 @@
+{
+  "phones": [
+    {
+      "id": "1",
+      "name": "IPhone 12 Pro",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-graphite-hero?wid=470&hei=556&fmt=png-alpha&.v=1604021660000",
+      "memory": 128,
+      "models": [
+        {
+          "memory": 128,
+          "price": 999
+        },
+        {
+          "memory": 256,
+          "price": 1099
+        },
+        {
+          "memory": 512,
+          "price": 1299
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "IPhone 12 Pro Max",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-max-graphite-hero?wid=470&hei=556&fmt=png-alpha&.v=1604021658000",
+      "models": [
+        {
+          "memory": 128,
+          "price": 1099
+        },
+        {
+          "memory": 256,
+          "price": 1199
+        },
+        {
+          "memory": 512,
+          "price": 1399
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-family-select-2020?wid=470&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1604343709000",
+      "name": "IPhone 12",
+      "models": [
+        {
+          "memory": 64,
+          "price": 699
+        },
+        {
+          "memory": 128,
+          "price": 749
+        },
+        {
+          "memory": 256,
+          "price": 849
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-family-select-2020?wid=441&hei=529&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1586794486444",
+      "name": "IPhone SE",
+      "models": [
+        {
+          "memory": 64,
+          "price": 399
+        },
+        {
+          "memory": 128,
+          "price": 449
+        },
+        {
+          "memory": 256,
+          "price": 549
+        }
+      ]
+    }
+  ]
+}
