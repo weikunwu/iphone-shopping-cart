@@ -3,7 +3,7 @@ import CartItem from "../components/CartItem";
 import Button from "../components/Button";
 import { useSelector } from "react-redux";
 import {useDispatch} from "react-redux";
-import {addToCartAction, removeItemFromCart} from "../actions";
+import {addToCartAction, removeItemFromCart, checkout } from "../actions";
 
 const Cart = () => {
   const cart = useSelector((state) => {
@@ -11,6 +11,10 @@ const Cart = () => {
   });
 
   const dispatch = useDispatch();
+
+  const handleCheckout = ()=>{
+    dispatch(checkout());
+  };
 
   const handleRemove = (phoneID, memory) => {
     dispatch(removeItemFromCart(phoneID, memory));
@@ -51,7 +55,7 @@ const Cart = () => {
         );
       })}
       <div>Total: ${total}</div>
-      <Button>Checkout</Button>
+      <Button onClick={handleCheckout}>Checkout</Button>
     </div>
   );
 };

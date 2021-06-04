@@ -59,6 +59,13 @@ const reducer = (state = initialState, action) => {
             }
         }
 
+        case Actions.CHECKOUT: {
+            return {
+              ...state,
+              cart: {}
+            };
+        }
+
         default:
             return state;
     }

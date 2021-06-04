@@ -22,3 +22,9 @@ export const removeItemFromCart = (phoneID, memory) => {
         }
     }
 };
+
+export const checkout = () => {
+    return {
+        type: CHECKOUT
+    };
+};
